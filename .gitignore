@@ -1,0 +1,51 @@
+# .gitignore untuk hermes-agent-install-free-api
+
+# Sensitive
+.env
+.env.local
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Test artifacts
+*.jsonl
+*.log
+test-output/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual envs
+venv/
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Asciinema recordings
+*.cast
+
+# Temporary
+tmp/
+*.tmp
+*.bak
+
+# Local config
+config.local.yaml
